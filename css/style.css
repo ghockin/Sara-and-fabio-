@@ -7,8 +7,8 @@
 }
 
 body {
-  background: #f9f8f6;
-  color: #333;
+  background: #F5F1E9; /* light cream */
+  color: #7B5E57;      /* dark brown for text */
   line-height: 1.6;
 }
 
@@ -16,17 +16,17 @@ body {
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background: #e0f2f1;
+  background: #9CAF88; /* sage green */
 }
 
 header h1 {
   font-size: 3rem;
-  color: #2e7d32;
+  color: #F5F1E9; /* light cream text */
 }
 
 header p {
   font-size: 1.2rem;
-  color: #555;
+  color: #D6A77A; /* light brown accent */
 }
 
 header nav {
@@ -36,13 +36,13 @@ header nav {
 header nav a {
   margin: 0 1rem;
   text-decoration: none;
-  color: #2e7d32;
+  color: #F5F1E9; /* light cream */
   font-weight: bold;
   transition: 0.3s;
 }
 
 header nav a:hover {
-  color: #ff6f00;
+  color: #D6A77A; /* light brown on hover */
 }
 
 /* Hero Section */
@@ -63,7 +63,7 @@ header nav a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(155, 175, 136, 0.5); /* sage overlay */
 }
 
 .hero-content {
@@ -75,25 +75,27 @@ header nav a:hover {
 .hero h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #F5F1E9; /* cream title */
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #D6A77A; /* light brown subtitle */
 }
 
 .btn {
   display: inline-block;
   padding: 0.8rem 2rem;
-  background: #ff6f00;
-  color: white;
+  background: #D6A77A; /* light brown button */
+  color: #F5F1E9;      /* cream text */
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s;
 }
 
 .btn:hover {
-  background: #e65100;
+  background: #C08F68; /* slightly darker on hover */
   transform: translateY(-2px);
 }
 
@@ -107,28 +109,21 @@ header nav a:hover {
   font-size: 2rem;
   margin-bottom: 1rem;
   animation: fadeInUp 1.5s ease forwards;
+  color: #9CAF88; /* sage green headings */
 }
 
 .section p {
   font-size: 1.1rem;
-  color: #555;
+  color: #7B5E57; /* dark brown body text */
   margin-bottom: 2rem;
-}
-
-/* QR Section */
-.qr-section img {
-  width: 200px;
-  height: 200px;
-  margin-top: 1rem;
-  animation: fadeIn 2s ease;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  background: #e0f2f1;
-  color: #555;
+  background: #9CAF88; /* sage footer */
+  color: #F5F1E9;      /* cream text */
 }
 
 /* Animations */
