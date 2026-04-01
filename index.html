@@ -3,17 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sara and fabio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Sara & Fabio Wedding</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Sara & Fabio</h1>
+    <p>30 September 2026</p>
+    <nav>
+      <a href="#rsvp">RSVP</a>
+      <a href="#qr">QR Code</a>
+    </nav>
+  </header>
 
-<main id="post-content">
-  <h2>sara and fabio wedding!!</h2>
-</main>
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Welcome to Our Celebration</h2>
+      <p>Join us as we celebrate our special day!</p>
+      <a href="#rsvp" class="btn">RSVP Now</a>
+    </div>
+  </section>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="js/main.js"></script>
+  <section id="rsvp" class="section">
+    <h3>RSVP</h3>
+    <p>Let us know if you’ll be there!</p>
+    <!-- Add a form here if desired -->
+  </section>
 
+  <section id="qr" class="section qr-section">
+    <h3>Scan to RSVP</h3>
+    <p>Use your phone to quickly RSVP or visit our website</p>
+    <img src="qr-placeholder.png" alt="QR Code">
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Sara & Fabio</p>
+  </footer>
+
+  <!-- Smooth scrolling script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+          .scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>
